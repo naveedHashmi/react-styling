@@ -5,7 +5,7 @@ import Button from '../../UI/Button/Button';
 
 const FormControl = styled.div`
   margin: 0.5rem 0;
-  width: '100%';
+  width: 70%;
 
   & label {
     font-weight: bold;
@@ -37,8 +37,8 @@ const FormControl = styled.div`
     color: red;
   }
 
-  @media (min-width: 768px) {
-    width: auto;
+  @media (max-width: 768px) {
+    width: 100%;
   }
   `;
 
